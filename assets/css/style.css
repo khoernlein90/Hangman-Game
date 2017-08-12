@@ -1,0 +1,24 @@
+body {
+	background-color: #FF8C00;
+}
+div {
+	font-size: 24px;
+}
+h1 {
+	text-align: center;
+}
+.jumbotron {
+	margin-top: 50px;
+}
+#placeholders {
+	text-align: center;
+	font-size: 36px;
+}
+#pressedLetters {
+	text-transform: uppercase;
+	text-align: center;
+	background-color: lightgray;
+}
+p{
+	text-align: center;
+}
