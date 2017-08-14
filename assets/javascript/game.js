@@ -1,4 +1,4 @@
-	var arrayOfWords = ["harambe","gooch", "catalina", "boatsnhoes", "trump", "snicklefritz", "kimjongun", "charliesheen"];
+	var arrayOfWords = ["harambe", "catalina", "boatsnhoes", "trump", "snicklefritz", "kimjongun", "charliesheen"];
     var pickedWord;
     var pickedWordArray = [];
     var pickedWordPlaceholders = [];
