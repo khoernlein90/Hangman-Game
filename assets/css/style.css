@@ -1,15 +1,9 @@
 body {
-	background-color: #FF8C00;
-}
-div {
+	font-family: 'Titillium Web', sans-serif;
+	background:url(http://www.designbolts.com/wp-content/uploads/2013/02/Grunge-Seamless-Pattern-For-Website-Background.jpg);
 	font-size: 24px;
 }
-h1 {
-	text-align: center;
-}
-.jumbotron {
-	margin-top: 50px;
-}
+
 #placeholders {
 	text-align: center;
 	font-size: 36px;
@@ -17,8 +11,12 @@ h1 {
 #pressedLetters {
 	text-transform: uppercase;
 	text-align: center;
-	background-color: lightgray;
 }
-p{
-	text-align: center;
+
+#letterBank {
+	margin-top: 25px;
+}
+.card-title {
+	font-family: 'Titillium Web', sans-serif;
+	background-color: grey;
 }
