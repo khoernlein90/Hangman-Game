@@ -1,0 +1,40 @@
+/* @media (max-width: 690px) {
+  h1 {
+    color: orange;
+  }
+} */
+
+/* Phone portrait */
+@media only screen and (max-device-width: 415px) {
+  h1 {
+    color: green;
+  }
+}
+
+/* Phone landscape */
+@media only screen and (max-device-width: 825px) and (orientation: landscape) {
+  h1 {
+    color: blue;
+    padding: 10px;
+  }
+  .description {
+    line-height: 50px;
+    font-size: 2rem;
+  }
+  .container p:nth-of-type(2) {
+    margin: 30px 0;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+/* @media screen and (min-width: 691px) {
+  h1 {
+    color: pink;
+  }
+} */

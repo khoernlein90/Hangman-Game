@@ -5,48 +5,51 @@
     <meta charset="UTF-8">
     <title>Hangman</title>
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- <link rel="stylesheet" href="./assets/css/queries.css"> -->
+<link rel="stylesheet" href="./assets/css/media-queries.css">
 
 <body>
     <div class="container">
-        <div class="jumbotron text-center">
-            <h1 class="display-3">Hangman</h1>
-            <hr class="my-4">
-            <p class="lead">This is a basic Hangman game where the user will have 10 guesses to try and figure out the correct word. The category for this game is animals!</p>
-            <p>Press any letter to begin</p>
-        </div>
-        <!-- END JUMBOTRON-->
-        <div class="row text-center">
-            <div class="col">
-                <div class="card">
-                    <div class="card-title">GUESSES REMAINING</div>
-                    <div id="guessesRemaining"></div>
+        <h1>Hangman</h1>
+        <hr>
+        <p class="description">This is a basic Hangman game where the user will have 10 guesses to try and figure out the correct word. The category
+            for this game is animals!</p>
+        <hr>
+        <div class="grid-container">
+            <div class="main">
+                <p>Press any letter to begin</p>
+                <div>GUESSES REMAINING:
+                    <span id="guessesRemaining"></span>
+                </div>
+                <div class="word-to-guess">WORD TO GUESS</div>
+                <div id="placeholders"></div>
+                <hr>
+                <div>WINS-LOSSES</div>
+                <div id="wins"></div>
+                <div id="losses"></div>
+
+                <div id="letterBank">
+                    <div>Letter Bank</div>
+                    <h3 id="pressedLetters"></h3>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-title">WORD TO GUESS</div>
-                    <div id="placeholders"></div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-title">WINS-LOSSES</div>
-                    <div id="wins"></div>
-                    <div id="losses"></div>
-                </div>
+            <div class="hangman">
+                <img src="./assets/images/1.png" class="one" alt="">
+                <img src="./assets/images/2.png" class="two" alt="">
+                <img src="./assets/images/3.png" class="three" alt="">
+                <img src="./assets/images/4.png" class="four" alt="">
+                <img src="./assets/images/5.png" class="five" alt="">
+                <img src="./assets/images/6.png" class="six" alt="">
+                <img src="./assets/images/7.png" class="seven" alt="">
+                <img src="./assets/images/8.png" class="eight" alt="">
+                <img src="./assets/images/9.png" class="nine" alt="">
+                <img src="./assets/images/10.png" class="ten" alt="">
             </div>
         </div>
-
-        <div class="card text-center" id="letterBank">
-            <div class="card-title">Letter Bank</div>
-            <h3 id="pressedLetters"></h3>
-        </div>
-
-
-    </div><!-- END CONTAINER -->
+    </div>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
